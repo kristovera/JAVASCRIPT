@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percabangan</title>
+</head>
+
+<body>
+    <p>Operator</p>
+    <script>
+        //bilangan ganjir atau genap
+        let angka = 10;
+        //prompt("masukkan angka ?");
+
+        if (angka % 2 === 0) { /// hasil === 0 ? 
+            console.log("Genap");
+        } else {
+            console.log("Ganjil");
+        }
+        // date
+        let now = new Date();
+        let day = now.getDay();
+
+        if (day == 0 || day == 6) {
+            console.log("Happy Weekend");
+        } else {
+            console.log("Weekday");
+        }
+
+        //jika umur 17 bb minim 55 bisa donor darah
+
+        let number = 16;
+        // prompt("masukan usia atau berat badan");
+
+        if (number >= 17 && number >= 55) {
+            console.log("Bisa donor darah");
+        } else {
+            console.log("Belum bisa donor darah");
+        }
+
+
+        switch (day) {
+            case 0:
+                console.log("Hari Minggu");
+                break;
+            case 1:
+                console.log("Hari Senin");
+                break;
+            case 2:
+                console.log("Hari Selasa");
+                break;
+            case 3:
+                console.log("Hari Rabu");
+                break;
+            case 4:
+                console.log("Hari Kamis");
+                break;
+            default:
+                console.log("Hari lainnya");
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>

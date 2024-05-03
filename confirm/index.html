@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Email | Verification Code</title>
+    <style>
+        p {
+            font-family: adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Load Image-->
+    <img src="apel.jpg" height="30px" alt="Logo Appel">
+    <p style="color : #505050" > Your Verification code is : </p>
+     <p id="result" ></p>      
+    <script>
+        //kode js
+        //camel Case : firstName
+        //snake_case : first_name, confirm_email (kebanyakan di python)
+        //var : versi lama dan nilai bisa diubah, let: nilai bisa diubah, const: nilai tidak bisa diubah
+
+    
+        let name = "Appel"; 
+        let age = 25;
+        let counter = 1;
+        let isActive= false;
+        counter = 2;
+
+        console.log('Hallo dari Javascript');
+        console.log(name);
+        console.log(age);
+        console.log(counter);
+       // document.write(name);
+        document.getElementById("result").innerHTML = name;
+
+        let price = "10000";
+        let total = 2* "10000";
+        console.log(total);
+
+        let x=5;
+        let y = 10;
+        let z = null;         
+        let result = x > y;
+        let result2 = x <= y ;
+
+        console.log(result);
+        console.log(result2);
+
+ //// tipe data object
+        let person ={
+            "firstName" : "Apel",
+            "lastName" : "Merah",
+             "year " : 1998
+        }
+      console.log(person);
+    </script>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

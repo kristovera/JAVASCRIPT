@@ -1,0 +1,1 @@
+console.log("Hallo Java script dari file")
